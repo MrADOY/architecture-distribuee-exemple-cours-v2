@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exemples-cours.iml" filepath="$PROJECT_DIR$/exemples-cours.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serveur-registre/serveur-registre.iml" filepath="$PROJECT_DIR$/serveur-registre/serveur-registre.iml" />
+    </modules>
+  </component>
+</project>
