@@ -1,7 +1,9 @@
 spring:
   application:
     name: comptes
-
+server:
+  servlet:
+    context-path: /comptes
 eureka:
   client:
     serviceUrl:

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/cartes/cartes.iml" filepath="$PROJECT_DIR$/cartes/cartes.iml" />
       <module fileurl="file://$PROJECT_DIR$/comptes/comptes.iml" filepath="$PROJECT_DIR$/comptes/comptes.iml" />
       <module fileurl="file://$PROJECT_DIR$/exemples-cours.iml" filepath="$PROJECT_DIR$/exemples-cours.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/serveur-registre/serveur-registre.iml" filepath="$PROJECT_DIR$/serveur-registre/serveur-registre.iml" />
     </modules>
   </component>

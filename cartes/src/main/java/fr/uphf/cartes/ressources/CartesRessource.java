@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
-@RequestMapping("cartes")
+@RequestMapping
 @RestController
 public class CartesRessource {
 

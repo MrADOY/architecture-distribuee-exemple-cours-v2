@@ -7,14 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cartes" />
         <module name="comptes" />
         <module name="serveur-registre" />
-        <module name="cartes" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cartes" target="17" />
       <module name="comptes" target="17" />
+      <module name="gateway" target="17" />
       <module name="serveur-registre" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cartes" options="-parameters" />
       <module name="comptes" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="serveur-registre" options="-parameters" />
     </option>
   </component>

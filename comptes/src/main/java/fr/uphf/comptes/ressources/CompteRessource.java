@@ -16,8 +16,8 @@ import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
-@RequestMapping("comptes")
 @RestController
+@RequestMapping
 public class CompteRessource {
 
     @Autowired
@@ -39,7 +39,7 @@ public class CompteRessource {
         }
     }
 
-    @GetMapping("{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<CompteDetailDTO> getCompte(@PathVariable("id") String id) {
         CompteDetailDTO.Carte[] cartesFromApi = webClient.baseUrl("http://cartes/")
                 .build()

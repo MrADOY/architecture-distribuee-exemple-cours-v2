@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+        - id: compte-id
+          uri: lb://comptes
+          predicates:
+            - Path=/comptes/**
+        - id: carte-id
+          uri: lb://cartes
+          predicates:
+            - Path=/cartes/**
+logging:
+  level:
+    org.springframework.cloud.gateway.handler.RoutePredicateHandlerMapping: TRACE

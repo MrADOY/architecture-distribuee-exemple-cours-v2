@@ -1,7 +1,9 @@
 spring:
   application:
     name: cartes
-
+server:
+  servlet:
+    context-path: /cartes
 eureka:
   client:
     serviceUrl:
