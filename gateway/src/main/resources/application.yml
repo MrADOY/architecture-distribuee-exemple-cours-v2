@@ -1,4 +1,11 @@
+auth0:
+  audience: http://gateway
 spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-f0azx6aq.us.auth0.com/
   application:
     name: gateway
   cloud:
